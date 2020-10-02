@@ -2,11 +2,11 @@ from random import randint
 number = randint(1,10)
 name = input('Please enter your name:\n')
 print('Hey',name+'! Welcome to the game- GUESS THE NUMBER!')
-number_of_guess = 0
+number_of_guesses = 0
 
-while number_of_guess < 5:
+while number_of_guesses < 5:
     guess = int(input())
-    number_of_guess += 1
+    number_of_guesses += 1
     if 1 <= guess <= 10 and 1 <= number <= 10:
 
         if guess < number:
@@ -21,7 +21,7 @@ while number_of_guess < 5:
     else:
         print('Check the number entered!')
 
-if number_of_guess == 5:
+if number_of_guesses == 5:
     print('Thankyou.\n You dont have further guess left.')
 else:
     print('Thankyou!')
