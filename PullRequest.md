@@ -100,4 +100,4 @@ Below are the steps to create a pull request.
      
 Hope you enjoyed this journey and try to make more and more pull requests and contribute to Open Source!
 
-# **Happy Contibuting**
+ # **Happy Contributing**
